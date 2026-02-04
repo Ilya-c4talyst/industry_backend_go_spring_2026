@@ -1,4 +1,4 @@
-Базовый минимум по курсу «Промышленная backend разработка на Go»
+# Базовый минимум по курсу «Промышленная backend разработка на Go»
 
 ![task 00](badges/tasks/task_00.svg)
 ![task 01](badges/tasks/task_01.svg)
