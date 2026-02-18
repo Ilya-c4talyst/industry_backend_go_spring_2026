@@ -1,13 +1,13 @@
 package main
 
 type Cache[K comparable, V any] struct {
-	data map[K]V
+	data     map[K]V
 	capacity int
 }
 
 func NewCache[K comparable, V any](capacity int) *Cache[K, V] {
 	return &Cache[K, V]{
-		data: make(map[K]V, capacity),
+		data:     make(map[K]V, capacity),
 		capacity: capacity,
 	}
 }
